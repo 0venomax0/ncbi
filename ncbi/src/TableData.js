@@ -21,7 +21,7 @@ function TableData() {
 
 
   const update = (animal_id) => {
-    axios.put(`http://localhost:4000/update/${animal_id}`, {
+    axios.put(`http://localhost:4000/update`, {
       type: type,
       breed: breed,
       span: span,
